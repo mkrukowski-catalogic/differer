@@ -12,4 +12,4 @@ with open(args.input, 'r') as input_file, open(args.output, 'w') as output_file:
         if len(parts) > 0:
             output_file.write(parts[0] + '\n')
 
-print(f"Fixed to {args.output}")
+print(f"Removed path to each file and saved as {args.output}")
